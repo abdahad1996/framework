@@ -56,7 +56,7 @@ public class APIRequestLoader<T: APIRequest> {
         }
     }
     public func getAlamofireResponse(_ url: String, completion: @escaping (String) -> Void) {
-        AF.request(url)
+      
 //        Alamofire.request(url).responseString { (response) in
 //            //
 //            if let json = response.result.value {
